@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "rack/ignore_forwarded_host"
+
+require "irb"
+IRB.start
